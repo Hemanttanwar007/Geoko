@@ -1,0 +1,607 @@
+.yes{
+    position: relative;
+    z-index: 1;
+}
+.no{
+    position: absolute;
+    display: none;
+    width: 250px;
+    top: 31px;
+    right: 20px;
+    background-color: #4a4646;
+}
+.no>li>a{
+    text-decoration: none;
+    color: white;
+}
+.yes:hover .no{
+    display: block;
+}
+.no>li>a:hover{
+    color: #cd9854;
+}
+.no>li{
+    color: #cd9854;
+    list-style: none;
+}
+.love{
+    position: relative;
+}
+.more{
+    position: absolute;
+    display: none;
+    right: 40px;
+    top: 0;
+}
+.love:hover .more{
+    display: block;
+} 
+.new{
+    display: flex;
+    justify-content: center;
+    background-color: #cd9854;
+}
+.new>li{
+    list-style: none;
+    margin: 10px;
+    border-right: 1px solid #ccb393;
+    padding-right:30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.new>li>a{
+    text-decoration: none;
+    color: white;
+}
+.new>li>a:hover{
+    color: black;
+}
+.we{
+    position: relative;
+    padding-bottom: 18px;
+}
+.my{
+    position: absolute;
+    top: 44px;
+    left: -30px;
+    width: 450px;
+    display: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #4a4646;
+    z-index: 1;
+}
+.we:hover> .my{
+    display: block;
+}
+.one{
+    float: left;
+    margin-right: 80px;
+    box-sizing: border-box;
+}
+.one>p{
+    color: #cd9854;
+}
+.one>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.one>li>a{
+    text-decoration: none;
+    color: white;
+}
+.two>p{
+    color: #cd9854;
+}
+.two>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.two>li>a{
+    color: white;
+    text-decoration: none;
+}
+.one>li>a:hover{
+    color: #cd9854;
+}
+.two>li>a:hover{
+    color: #cd9854;
+}
+.me{
+    position: relative;
+}
+.myself{
+    position: absolute;
+    background-color: #4a4646;
+    width: 1300px;
+    left: -400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: 44px;
+    display: none;
+    z-index: 1;
+}
+.me:hover .myself{
+    display: block;
+}
+.three{
+    float: left;
+    margin-right: 190px;
+}
+.three>p{
+    color: #cd9854;
+}
+.three>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.three>li>a{
+    text-decoration: none;
+    color: white;
+}
+.three>li>a:hover{
+    color: #cd9854;
+}
+.four{
+    float: left;
+    margin-right: 190px;
+}
+.four>p{
+    color: #cd9854;
+}
+.four>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.four>li>a{
+    text-decoration: none;
+    color: white;
+}
+.four>li>a:hover{
+    color: #cd9854;
+}
+.five{
+    float: left;
+    margin-right: 190px;
+}
+.five>p{
+    color: #cd9854;
+}
+.five>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.five>li>a{
+    text-decoration: none;
+    color: white;
+}
+.five>li>a:hover{
+    color: #cd9854;
+}
+.six{
+    float: left;
+}
+.six>li{
+    list-style: none;
+}
+#scale{
+    transition: 0.8s;
+}
+#scale:hover{
+    transform: scale(1.1);
+}
+.seven{
+    position: relative;
+}
+.eight{
+    position: absolute;
+    display: none;
+    background-color: #4a4646;
+    top: 44px;
+    left: -40px;
+    width: 270px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+.seven:hover .eight{
+    display: block;
+}
+.eight>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.eight>p{
+    color: #cd9854;
+}
+.eight>li>a{
+    text-decoration: none;
+    color: white;
+}
+.eight>li>a:hover{
+    color: #cd9854;
+}
+.nine{
+    position: relative;
+}
+.ten{
+    position: absolute;
+    display: none;
+    background-color: #4a4646;
+    top: 44px;
+    left: -40px;
+    width: 270px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+.nine:hover .ten{
+    display: block;
+}
+.ten>li{
+    color: white;
+    margin-bottom: 10px;
+}
+.ten>li>a{
+    color: white;
+    text-decoration: none;
+}
+.ten>li>a:hover{
+    color: #cd9854;
+}
+#b1{
+    top: -16px;
+}
+#he{
+    position: absolute;
+    top: 160px;
+}
+.why{
+    background-color: #cd9854;
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left:25px;
+    padding-right:25px;
+}
+.why:hover{
+    background-color: #ccb393;
+}
+#she{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+#mine{
+    position: absolute;
+    top: 160px;
+    left: 350px;
+}
+#she>h1{
+    color: #cd9854;
+}
+#bullet{
+    position: absolute;
+    top: 9vh;
+    left: 165px;
+}
+#bullet>h4{
+    color: white;
+}
+#bullet>button{
+    background-color: #cd9854;
+    border: none;
+    color: white;
+    padding-top: 6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#gun{
+    position: absolute;
+    top: 9vh;
+    left: 15px;
+}
+#gun>h4{
+    color: white;
+}
+#gun>h5{
+    color: white;
+}
+#gun>button{
+    background-color: #cd9854;
+    border: none;
+    color: white;
+    padding-top: 6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#my:hover{
+    background-color: #ccb393;
+}
+#myself:hover{
+    background-color: #ccb393;
+}
+#hemaoverflow{
+    overflow: hidden;
+}
+#hema{
+    transition: 0.8s;
+}
+#hema:hover{
+    transform: scale(1.1);
+}
+#nshi:hover{
+    transform: scale(1.1);
+}
+#nshi{
+    transition: 0.8s;
+}
+#nshioverflow{
+    overflow: hidden;
+}
+#jhg>p>a{
+    text-decoration: none;
+    color: black;
+}
+#jhg>p>a:hover{
+    color: #cd9854;
+}
+.style{
+    text-align: center;
+    color: #cd9854;
+    font-weight: bold;
+}
+.height{
+    height: 340px;
+}
+.kola{
+    background-color: #cd9854;
+    border: none;
+    color: white;
+    padding-top: 6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.kola:hover{
+    background-color: #ccb393;
+}
+#kite>li{
+    list-style: none;
+    color: #b3b3b7;
+}
+#mite>li{
+    list-style: none;
+    color: #b3b3b7;
+}
+.creative{
+    color: black;
+}
+#purse{
+    color: #cd9854;
+    font-weight: 700;
+}
+#men{
+    background-color: #f5f5f5;
+}
+#now{
+    color:  #cd9854;
+    font-weight: 700;
+}
+#where>h4{
+    color:  #cd9854;
+    font-weight: 700;
+}
+.make{
+    color:#6d6d6d;
+}
+#Bob{
+    color:  #cd9854;
+    font-weight: 700;
+}
+#head{
+    margin-bottom: 120px;
+}
+#this>.card-title{
+    color:  #cd9854;
+    font-weight: 700;
+}
+#none{
+    height: 480px;
+}
+#none:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+#nonea{
+    height: 480px;
+}
+#nonea:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+#noneb{
+    height: 480px;
+}
+#noneb:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+#nowself{
+    background-color: #cd9854;
+}
+#herob{
+    border-right: 2px solid #ccb393;
+    height: 80px;
+    margin-top: 30px;
+}
+#infoservices{
+    color: white;
+}
+#infoservices:hover{
+    color:  #cd9854;
+}
+.neyo{
+    color:  #cd9854;
+}
+.beer{
+    color: #cd9854;
+    margin-left: 30px;
+}
+.beerz{
+    color: #cd9854;
+    margin-left: 30px;
+}
+.pen>li{
+    list-style: none;
+}
+.pen>li>a{
+    text-decoration: none;
+    color: white;
+}
+.pen>li>a:hover{
+    color: #cd9854;
+}
+.penb>li{
+    list-style: none;
+    margin-left: 10px;
+}
+.penb>li>a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #cd9854;
+}
+.penb>li>a:hover{
+    color: #6d6d6d;
+}
+.beerb{
+    color: #cd9854;
+    margin-left: 38px;
+}
+#Subscribe{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#jhg{
+    display: flex;
+}
+marquee{
+    opacity: 0.8;
+}
+marquee:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 1300px){
+    #gun{
+        display: none;
+    }
+    #bullet{
+        display: none;
+    }
+}
+@media screen and (max-width:992px){
+    .new{
+        display: none;
+    }
+    #borderbottom{
+        display: none;
+    }
+    #he{
+       top: 50px !important 
+    }
+    #she{
+        top: 10px !important
+    }
+    #mine{
+        top: 40px !important
+    }
+    #gun{
+        display: none;
+    }
+    #bullet{
+        display: none;
+    }
+    #marquee{
+        box-sizing: border-box;
+        margin-top: 140px;
+        position: relative;
+    }
+}
+@media screen and (max-width:768px){
+    .new{
+        display: none;
+    }
+    #header{
+        display: none;
+    }
+    #borderbottom{
+        display: none;
+    }
+    #Subscribe{
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #text{
+        padding-right: 100px;
+    }
+    #bullet{
+        left: 15px;
+    }
+    #myself{
+        position: absolute;
+        left: -25px;
+        margin-right: 15px;
+    }
+    #borderbottom{
+        display: none;
+    }
+    #footerone{
+        margin-bottom: 1.5rem !important;
+        margin-top: 0.5rem !important;
+
+    }
+    #footertwo{
+        margin-bottom: 0.1rem !important;
+        margin-top: 0.5rem !important;
+    }
+    #footerthree{
+        margin-bottom: 0.1rem !important;
+        margin-top: 0.5rem !important;
+    }
+    #footerfour{
+        margin-bottom: 0.1rem !important;
+        margin-top: 0.5rem !important;
+    }
+    #he{
+        display: none; 
+     }
+     #she{
+         display: none;
+     }
+     #mine{
+         display: none;
+     }
+     #gun{
+        display: none;
+    }
+    #bullet{
+        display: none;
+    }
+    #jhg{
+        display: block;
+    }
+}
+@media screen and (max-width: 320px){
+    .iconspng{
+        width: 80px;
+    }
+    #table{
+        display: none;
+    }
+}
+
